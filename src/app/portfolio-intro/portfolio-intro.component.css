@@ -1,0 +1,57 @@
+/* * {
+    background-color: #333;
+} */
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@600&display=swap');
+* {
+    background-color: #061621;
+}
+
+.container-fluid{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+  }
+  .name{
+    font-family: 'Lora';
+    /* letter-spacing: -4.5px; */
+    font-size: 90px;
+  }
+
+  .section1 {
+    flex: 1;
+  }
+  .section2 {
+    flex: 1;
+  }
+
+.test {
+    padding : 230px;
+    color:#FFC300;
+}
+
+.btn {
+    border: 2px solid black;
+    background-color: white;
+    color: black;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  /* Green */
+  .success {
+    border-color: #FFC300;
+    color: black;
+  }
+  
+  .success:hover {
+    background-color: #FFC300;
+    color: white;
+  }
+
+    
+@media screen and (max-width: 992px) {
+.test{
+    padding : 70px;
+}
+}

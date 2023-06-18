@@ -3,10 +3,14 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { PortfolioHeaderComponent } from './portfolio-header/portfolio-header.component';
+import { PortfolioIntroComponent } from './portfolio-intro/portfolio-intro.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    PortfolioHeaderComponent,
+    PortfolioIntroComponent
   ],
   imports: [
     BrowserModule,
